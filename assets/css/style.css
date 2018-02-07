@@ -1,0 +1,234 @@
+/*Style Sheet for Basic Portfolio pages*/
+
+/*These properties define the entire page*/
+body {
+    background-image: url("./../images/fresh_snow.png");
+    background-size: cover;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    width: 50%;
+    color: #777777;
+    border-color: #dddddd;
+    margin: auto;
+  }
+
+/*Has the background image and makes the main container*/
+.content {
+    width: 1060px;
+    position: center;
+    min-height: calc(100vh - 70px);
+    overflow: auto;
+    clear: none;
+  }
+
+/*Contains properties for my Name*/
+header {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    text-align: center; 
+    margin: inherit;   
+  }
+
+/*This is the actual box my name is in*/
+h1 {
+    padding: 20px 0;
+    width: 240px;
+    margin: inherit;
+    font-size: 28px;
+    color: #ffffff;
+    background: #4aaaa5;
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+/*Properties for other headers*/
+h2 {
+    padding: 8px;
+    font-size: 24px;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+  }
+
+p {
+    text-indent: 30px;
+    padding-top: 20px;
+  }
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+  
+/*This styles the social links*/  
+ul {
+
+
+    margin-top: 20px; 
+    padding: 10px;
+  }
+
+/*You need this to make them line up horizontally*/
+
+
+.social {
+  width: 60px;
+  height: 60px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*Pushes the nav bar in a little from the right*/
+nav {
+    margin-right: 50px;
+}
+
+/*Most properties for the nav bar*/
+nav a {
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+    color: #777777;
+    background-color: #ffffff;
+    overflow: hidden;
+    float: right;
+    border: 0;
+    margin-top: 10px;
+  }
+  nav a:hover {
+    color: #4aaaa5;
+  }
+
+/*Place holder image properties for future projects*/
+.gallery {
+    
+    margin: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+.project {
+  width: 240px;
+  height: 200px;
+ 
+}
+
+/*The text in those project images*/
+/*Description needs to be moved onto image and re-sized*/
+.desc {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  width: 100%;
+  color: #ffffff;
+  background: #4aaaa5;
+  
+  z-index: -1;
+}
+
+/*Defines the the space for the large elements in the pages*/
+.container {
+  width: 610px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: auto;
+  margin-left: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+  clear: none;
+  border: 1px solid #cccccc;
+}
+
+/*Contact info form*/
+form {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  background-color:#ffffff;
+  resize: none;
+}
+
+/*Where the big message is in the form*/
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/*Space for the user to write in*/
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Submit buttom properties*/
+input[type=submit] {
+  width: 150px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+}
+
+#contact {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
+/*Container for the social links*/
+aside {
+  float: right;
+  width: 230px;
+  height: 160px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 50px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+input:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+footer {
+  display: block;
+  background: #666666;
+  color: #777777;
+  height: 20px;
+  line-height: 50px;
+  padding: 30px 0;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: #4aaaa5;
+  border-top-width: 8px;
+  
+  font-size: 14px;
+}
